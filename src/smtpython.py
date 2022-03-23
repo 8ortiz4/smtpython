@@ -1,2 +1,4 @@
 email = ''
 passphrase = ''
+host = ''
+port = ''
