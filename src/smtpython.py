@@ -1,17 +1,17 @@
 from email.mime.text import MIMEText
 
-EMAIL = None
-PASSPHRASE = None
-HOST = None
-PORT = None
-FROM = EMAIL
-SUBJECT = None
-TO = None
+BCC = None
 BODY = None
 CC = None
-BCC = None
-NAME = None
 DATE = None
+EMAIL = None
 EXPIRES = None
+FROM = EMAIL
+HOST = None
+NAME = None
+PASSPHRASE = None
+PORT = None
+SUBJECT = None
+TO = None
 
 BODY = MIMEText(BODY, 'HTML', 'UTF-8')
