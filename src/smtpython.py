@@ -15,3 +15,4 @@ SUBJECT = None
 TO = None
 
 BODY = MIMEText(BODY, 'HTML', 'UTF-8')
+MAIL = 'Bcc: {}\nCc: {}\nDate: {}\nExpires: {}\nFrom: {} <{}>\nSubject: {}\nTo: {}\n{}'.format(BCC, CC, DATE, EXPIRES, NAME, FROM, SUBJECT, TO, BODY)
