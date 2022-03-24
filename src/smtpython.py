@@ -1,3 +1,5 @@
+from email.mime.text import MIMEText
+
 EMAIL = None
 PASSPHRASE = None
 HOST = None
@@ -11,3 +13,5 @@ BCC = None
 NAME = None
 DATE = None
 EXPIRES = None
+
+BODY = MIMEText(BODY, 'HTML', 'UTF-8')
