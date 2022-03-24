@@ -1,4 +1,4 @@
-email = ''
-passphrase = ''
-host = ''
-port = ''
+email = None
+passphrase = None
+host = None
+port = None
